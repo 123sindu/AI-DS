@@ -1,0 +1,21 @@
+# A simple R program to Verify if an object is of a certain datatype
+print(is.logical(TRUE))
+print(is.integer(3L))
+print(is.numeric(10.5))
+print(is.complex(1+2i))
+print(is.character("12-04-2020"))
+print(is.integer("a"))
+print(is.numeric(2+3i))
+
+
+
+max(5, 10, 15)
+
+min(5, 10, 15)
+
+
+Example:
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
